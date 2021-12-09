@@ -21,6 +21,7 @@ body {
   border-right: 1px solid rgba(255, 255, 255, 0.1);
   -webkit-backdrop-filter: grayscale(50%) blur(5px);
           backdrop-filter: grayscale(50%) blur(5px);
+  background-color: rgba(0, 0, 0, 0.4);
 }
 
 .feature h3 {
@@ -53,6 +54,7 @@ body {
 .is-active {
   -webkit-backdrop-filter: none;
           backdrop-filter: none;
+  background-color: transparent;
 }
 
 .is-active a {
